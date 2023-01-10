@@ -41,7 +41,8 @@ module.exports = {
     "@typescript-eslint/camelcase": "off",
     "import/no-unresolved": "off",
     "unused-imports/no-unused-imports-ts": 2,
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "no-html-link-for-pages": ["error", "./app/pages"]
   },
   settings: {
     react: {

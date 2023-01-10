@@ -13,7 +13,7 @@ export const NextSeo: FC<NextSeoProps> = ({ title, description, ...props }) => {
       canonical={`https://Nextjs13Template.com${pathname}`}
       openGraph={{
         title: `${title} - Nextjs13Template`,
-        description: description,
+        description: description
       }}
     />
   );

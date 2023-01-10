@@ -11,12 +11,7 @@ const Text: FC<TextProps> = forwardRef(({ text, ...props }, ref) => {
   props.as = props.as || "p";
 
   return (
-    <TextRebass
-      {...props}
-      ref={ref}
-      {...shortProps(props)}
-      sx={{ ...props.sx }}
-    >
+    <TextRebass {...props} ref={ref} {...shortProps(props)} sx={{ ...props.sx }}>
       {props.children}
     </TextRebass>
   );
