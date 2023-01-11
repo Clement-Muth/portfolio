@@ -1,11 +1,11 @@
-import { Box, Flex } from "rebass";
+import { Box, Card, Flex } from "rebass";
 import Image from "next/image";
 import { Text } from "library/components/ui";
 import { skills } from "./constant";
 
 export const Skills = () => {
   return (
-    <Box p="21px" bg="#1A1F29" width="50%" alignItems="center" sx={{ borderRadius: 10 }}>
+    <Card as="article" p="21px" bg="#1A1F29" width="50%" alignItems="center" sx={{ borderRadius: 10 }}>
       <Flex justifyContent="left" alignItems="center" width="100%" sx={{ borderBottom: "solid 1px grey" }}>
         <Image
           src="/static/images/me.png"
@@ -56,6 +56,6 @@ export const Skills = () => {
           ))}
         </Box>
       </Box>
-    </Box>
+    </Card>
   );
 };

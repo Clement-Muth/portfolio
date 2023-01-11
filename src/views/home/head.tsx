@@ -5,7 +5,7 @@ import { Box, Flex } from "rebass";
 
 export const Head = () => {
   return (
-    <Flex flexDirection="column" mt={7} lineHeight={1.5}>
+    <Flex as="section" flexDirection="column" mt={7} lineHeight={1.5}>
       <Text as="h1" textAlign="center" sx={{ "& > span": { fontSize: 6 } }}>
         <Text as="span" bg="yellow" px={4} py={3} sx={{ borderRadius: 10 }}>
           Hey, Je suis Clément
