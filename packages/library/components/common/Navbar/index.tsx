@@ -53,7 +53,7 @@ export const Navbar = () => {
           color="black"
           sx={{ borderRadius: 50, boxShadow: "unset", whiteSpace: "nowrap" }}
         >
-          TJM ~ 250€
+          TJM ~ 350€
         </Button>
       </Flex>
     </Relative>

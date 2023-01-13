@@ -10,7 +10,7 @@ const Footer = () => {
       <Flex alignItems="center" justifyContent="space-between" flex={1}>
         <Flex sx={{ gap: 50 }}>
           <Box>
-            <Text color="grey">Travaillez avec moi</Text>
+            <Text>Travaillez avec moi</Text>
             <Text mt={2} mb={1}>
               clementmuth@gmail.com
             </Text>
@@ -22,7 +22,7 @@ const Footer = () => {
             </Link>
           </Box>
           <Box>
-            <Text color="grey">Suivez-moi</Text>
+            <Text>Suivez-moi</Text>
             <Flex mt={2} sx={{ gap: 20 }}>
               <Link
                 href="https://github.com/Clement-Muth"
@@ -53,9 +53,7 @@ const Footer = () => {
             </Link>
           </Flex>
           <Box ml={3}>
-            <Text color="grey" mb={1}>
-              Portfolio
-            </Text>
+            <Text mb={1}>Portfolio</Text>
             <Link
               href="https://github.com/Clement-Muth/portfolio"
               target="_blank"

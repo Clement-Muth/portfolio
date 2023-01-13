@@ -28,7 +28,7 @@ export const Home = () => {
             bg="white"
             sx={{ borderRadius: 50, boxShadow: "unset" }}
           >
-            Contact me
+            Contactez moi
           </Button>
           <Button
             flex={1}
@@ -37,7 +37,7 @@ export const Home = () => {
             onClick={() => router.push("/works")}
             sx={{ borderRadius: 50, boxShadow: "unset" }}
           >
-            See All ~ My projects
+            Voir tous ~ Mes projets
           </Button>
         </Flex>
       </Box>

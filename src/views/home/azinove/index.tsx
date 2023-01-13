@@ -32,14 +32,21 @@ export const Azinove = () => {
             <Link href="https://azinove.com" target="_blank">
               <Flex
                 className="img-container"
-                width={62}
-                height={62}
+                width={54}
+                height={54}
                 overflow="hidden"
-                p="18px"
+                justifyContent="center"
+                alignItems="center"
                 bg="white"
                 sx={{ borderRadius: 50 }}
               >
-                <Image src="/static/svg/arrow.svg" alt="" width={26} height={26} />
+                <Image
+                  src="/static/svg/arrow.svg"
+                  alt="arrow redirection logo"
+                  aria-label="redirection to azinove.com"
+                  width={24}
+                  height={24}
+                />
               </Flex>
             </Link>
           </Box>
@@ -51,11 +58,17 @@ export const Azinove = () => {
           maxHeight="400px"
           sx={{ borderRadius: 10, "& > img": { borderRadius: 10, boxShadow: "0px 2px 11px grey" } }}
         >
-          <Image src="/static/images/works/azinove.png" alt="works azinove illustration" width={534} height={276} />
+          <Image src="/static/images/works/azinove.png" alt="works azinove illustration" width={533} height={300} />
         </Flex>
       </Card>
       <Card as="article" p="10px" bg="white" flex={1} sx={{ borderRadius: 10 }}>
-        <Flex bg="#f5f5f5" p={2} height="100%" sx={{ borderRadius: 10, "& > img": { borderRadius: 10 } }}>
+        <Flex
+          bg="#f5f5f5"
+          p={2}
+          alignItems="center"
+          height="100%"
+          sx={{ borderRadius: 10, "& > img": { borderRadius: 10 } }}
+        >
           <Image
             src="/static/images/works/azinove-mobile.png"
             alt="works azinove illustration"

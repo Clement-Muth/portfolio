@@ -14,7 +14,7 @@ export const Head = () => {
         <Text as="span">développeur web et mobile</Text>
       </Text>
       <Text as="h2" fontSize={3} textAlign="center" mt={5} fontWeight="400">
-        Je suis un développeur web avec 8 ans d&apos;expérience et 3 ans d&apos;entrepreneuriat. J&apos;ai réalisé de
+        Je suis un développeur web avec +7 ans d&apos;expérience et 3 ans d&apos;entrepreneuriat. J&apos;ai réalisé de
         nombreuses applications web pour ma famille et ai créé ma propre agence de communication spécialisée dans le
         développement éco-responsables, orientée performance et SEO (
         <Link
@@ -37,7 +37,7 @@ export const Head = () => {
       >
         <Box textAlign="center">
           <Text fontSize={5} fontWeight="700">
-            2
+            3
           </Text>
           <Text fontSize="12px" fontWeight={400}>
             Missions effectuées
