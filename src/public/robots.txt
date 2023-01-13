@@ -3,8 +3,8 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://Nextjs13Template.com
+Host: https://clementmuth.com
 
 # Sitemaps
-Sitemap: https://Nextjs13Template.com/sitemap.xml
-Sitemap: https://Nextjs13Template.com/server-sitemap-index.xml
+Sitemap: https://clementmuth.com/sitemap.xml
+Sitemap: https://clementmuth.com/server-sitemap-index.xml

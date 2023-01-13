@@ -58,7 +58,7 @@ export const Azinove = () => {
           maxHeight="400px"
           sx={{ borderRadius: 10, "& > img": { borderRadius: 10, boxShadow: "0px 2px 11px grey" } }}
         >
-          <Image src="/static/images/works/azinove.png" alt="works azinove illustration" width={533} height={300} />
+          <Image src="/static/images/works/azinove.png" alt="works azinove illustration" width={540} height={307} />
         </Flex>
       </Card>
       <Card as="article" p="10px" bg="white" flex={1} sx={{ borderRadius: 10 }}>

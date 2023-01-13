@@ -41,7 +41,7 @@ export const Skills = () => {
       </Flex>
       <Box mt={4}>
         <Text as="h3" color="white" fontSize={3} fontWeight="600">
-          Skills:
+          Compétences:
         </Text>
         <Box mt={4} display="grid" sx={{ gap: 30, gridTemplateColumns: "repeat(auto-fit, minmax(130px, 1fr))" }}>
           {skills.map(({ bg, icon, label }) => (

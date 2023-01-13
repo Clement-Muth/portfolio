@@ -28,7 +28,16 @@ const MyApp = ({ Component, pageProps }: AppProps<NextPages>) => {
 
   return (
     <Flex id="main" className={`${inter.className}`} justifyContent="center">
-      <Flex flexDirection="column" width="1000px" pb={3}>
+      <Flex
+        flexDirection="column"
+        width="1000px"
+        pb={3}
+        sx={{
+          "@media (max-width: 1030px)": {
+            width: "95%"
+          }
+        }}
+      >
         <Head config={config} />
         <ThemeProvider theme={theme}>
           <Layout Component={Component} {...pageProps}>
