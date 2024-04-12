@@ -7,7 +7,7 @@ import { Skills } from "~/app/views/aboutMe/skills";
 const AboutMe = () => {
   return (
     <section className="flex flex-col gap-5">
-      <div className="flex gap-5">
+      <div className="flex flex-col md:flex-row gap-5">
         <Skills />
         <Bio />
       </div>

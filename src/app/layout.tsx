@@ -14,9 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="bg-[#f5f5f5]">
-      <body className="grid grid-rows-[86px_auto] justify-center min-h-dvh py-4 h-full">
+      <body className="flex flex-col items-center min-h-dvh py-4 px-3 sm:px-6 h-full">
         <Header />
-        <main className="flex flex-col justify-self-center">{children}</main>
+        <main className="flex flex-col items-center">{children}</main>
         <Footer />
       </body>
     </html>

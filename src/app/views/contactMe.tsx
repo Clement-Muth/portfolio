@@ -7,7 +7,7 @@ const ContactMe = () => {
   return (
     <Card className="py-6" radius="md">
       <CardBody className="items-center justify-center">
-        <Balancer as="h3" className="text-5xl font-semibold max-w-md text-center">
+        <Balancer as="h3" className="text-3xl md:text-5xl font-semibold max-w-md text-center">
           Do you want to work with me?
         </Balancer>
       </CardBody>

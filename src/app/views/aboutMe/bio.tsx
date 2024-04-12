@@ -1,4 +1,6 @@
-import { Card, CardBody } from "@nextui-org/card";
+import { Button } from "@nextui-org/button";
+import { Card, CardBody, CardFooter } from "@nextui-org/card";
+import { Link } from "@nextui-org/link";
 
 const Bio = () => {
   return (
@@ -19,6 +21,19 @@ const Bio = () => {
           Looking forward to getting in touch with you!
         </p>
       </CardBody>
+      <CardFooter>
+        <Button
+          as={Link}
+          href="https://www.linkedin.com/in/clement-muth/"
+          className="bg-yellow"
+          target="_blank"
+          isBlock
+          showAnchorIcon
+          fullWidth
+        >
+          See all my Experience
+        </Button>
+      </CardFooter>
     </Card>
   );
 };
