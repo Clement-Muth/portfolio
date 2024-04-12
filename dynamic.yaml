@@ -1,0 +1,29 @@
+http:
+  routers:
+    clementmuth:
+      rule: "Host(`clementmuth.localhost`)"
+      service: "portfolio-service"
+      entryPoints:
+        - http
+        - https
+      tls: {}
+
+  services:
+    portfolio-service:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:3000"
+
+tls:
+  stores:
+    default:
+      defaultCertificate:
+        certFile: certs/cert.pem
+        keyFile: certs/key.pem
+  certificates:
+    - certFile: certs/cert.pem
+      keyFile: certs/key.pem
+      stores:
+        - default
+    - certFile: certs/cert.pem
+      keyFile: certs/key.pem

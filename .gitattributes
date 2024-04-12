@@ -1,0 +1,7 @@
+*.zip binary
+
+# Disable diff of Lottie files:
+#   - `binary` for git command
+#   - `linguist-generated` to disable diff in the GitHub UI
+# @see https://github.com/github/linguist/blob/master/docs/overrides.md
+*.lottie.json binary linguist-generated
