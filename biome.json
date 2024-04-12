@@ -1,0 +1,65 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.5.3/schema.json",
+  "organizeImports": {
+    "enabled": true
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "security": {
+        "noDangerouslySetInnerHtml": "off"
+      },
+      "complexity": {
+        "noBannedTypes": "off"
+      },
+      "correctness": {
+        "noUnusedVariables": "off",
+        "useExhaustiveDependencies": "off",
+        "noChildrenProp": "off",
+        "recommended": true
+      },
+      "style": {
+        "noNonNullAssertion": "off",
+        "noUselessElse": "off",
+        "noCommaOperator": "off",
+        "recommended": true
+      },
+      "a11y": {
+        "useKeyWithClickEvents": "off"
+      },
+      "suspicious": {
+        "recommended": true,
+        "noShadowRestrictedNames": "off",
+        "noExplicitAny": "off",
+        "noArrayIndexKey": "off"
+      }
+    }
+  },
+  "files": {
+    "ignore": [
+      "build/*",
+      "node_modules",
+      ".storybook",
+      ".next",
+      "public",
+      "amplify",
+      "src/infrastructures/api/*",
+      "src/aws-exports.js"
+    ]
+  },
+  "formatter": {
+    "enabled": true,
+    "formatWithErrors": true,
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineWidth": 110,
+    "lineEnding": "lf"
+  },
+  "javascript": {
+    "formatter": {
+      "trailingComma": "none",
+      "semicolons": "always"
+    }
+  }
+}
