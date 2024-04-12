@@ -4,7 +4,7 @@ import Hero from "~/app/views/hero";
 
 const Home = () => {
   return (
-    <div className="flex flex-col w-[1024px] gap-32">
+    <div className="flex flex-col justify-center gap-32 w-full lg:w-[1024px]">
       <Hero />
       <AboutMe />
       <ContactMe />

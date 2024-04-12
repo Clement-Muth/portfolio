@@ -16,7 +16,7 @@ export const Skills = () => {
             style={{ borderRadius: 50, objectFit: "cover", flex: "0 0 auto" }}
           />
           <div className="flex flex-col text-white ml-4 w-full gap-3">
-            <h3 className="text-3xl font-semibold">Clément Muth</h3>
+            <h3 className="text-xl md:text-3xl font-semibold">Clément Muth</h3>
             <p>Ostwald, Strasbourg, France</p>
           </div>
         </div>
@@ -25,7 +25,7 @@ export const Skills = () => {
       <CardBody className="gap-5">
         <div>
           <h3 className="text-xl text-white font-semibold">Skills:</h3>
-          <div className="mt-4 grid gap-8 grid-cols-3 h-[calc(100%-44px)]">
+          <div className="mt-4 grid gap-8 grid-cols-2 md:grid-cols-3 h-[calc(100%-44px)]">
             {skills.map(({ bg, icon, label }) => (
               <div className="flex items-center" key={label}>
                 <div
@@ -34,7 +34,7 @@ export const Skills = () => {
                 >
                   {icon}
                 </div>
-                <p className="ml-2 text-white font-semibold ">{label}</p>
+                <p className="ml-2 text-sm md:text-base text-white font-semibold ">{label}</p>
               </div>
             ))}
           </div>

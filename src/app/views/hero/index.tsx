@@ -4,7 +4,7 @@ import Balancer from "react-wrap-balancer";
 const Hero = () => {
   return (
     <section className="flex flex-col pt-16 gap-10">
-      <h1 className="text-5xl font-bold text-center leading-[2]">
+      <h1 className="text-3xl md:text-5xl font-bold text-center !leading-[2]">
         <span className="bg-yellow rounded-xl px-4 py-3">Hey, I'm Clément,</span>
         <br />
         web and mobile developer
@@ -17,7 +17,7 @@ const Hero = () => {
         well as my freelance web development business as an auto-entrepreneur
       </Balancer>
       <Card className="justify-around items-center" radius="md">
-        <CardBody className="!flex-row py-6 justify-around items-center">
+        <CardBody className="!flex gap-7 md:gap-0 md:!flex-row py-6 justify-around items-center">
           <div className="text-center">
             <p className="text-3xl leading-10 font-bold">6</p>
             <p className="text-xs">Completed projects</p>
@@ -27,7 +27,7 @@ const Hero = () => {
             <p className="text-xs">Completed at</p>
           </div>
           <div className="text-center">
-            <p className="text-3xl leading-10 font-bold">7 ans et +</p>
+            <p className="text-3xl leading-10 font-bold">7 years and +</p>
             <p className="text-xs">Experience</p>
           </div>
           <div className="text-center">
